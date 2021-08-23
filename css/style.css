@@ -1,0 +1,61 @@
+/* Gestionar el estilo de la caluladora una vez que este funcionando todo */
+
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+}
+
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+.body {
+  border: 4px solid lightblue;
+  width: 75%;
+}
+
+.area {
+  width: 90%;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+}
+
+td {
+  padding: 10px;
+}
+
+.borrar {
+  float: right;
+  width: 10%;
+  height: 42px;
+}
+
+.btn-secondary,
+.btn-success,
+.btn-primary {
+  width: 70%;
+  font-size: x-large;
+  text-align: center;
+}
+
+#nota {
+  font-size: large;
+  text-align: center;
+}

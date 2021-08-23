@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="titulo">Calculadora</h1>
+
+      <div role="alert" id="liveAlert"></div>
+
+      <div class="row">
+        <div class="col-md-6 calc">
+          <div class="body" id="app"></div>
+        </div>
+        <div class="col-md-6">
+          <h3>¿Que se puede hacer?</h3>
+          <ul>
+            <li>Operaciones básicas (suma, resta, multiplicar, dividir)</li>
+            <li>Operaciones con números negativos</li>
+            <li>Operaciones con números decimales</li>
+
+            <li>
+              Editar el area de calculo para la corrección de un numero en caso
+              de error
+            </li>
+            <li>Borrar</li>
+          </ul>
+          <h3>Pendiente</h3>
+          <ul>
+            <li>Operaciones concatenadas (Ej: 2 + 3 + 7)</li>
+            <li>Operaciones con decimales que incluyan 0 (Ej: 0.9 + 6)</li>
+            <li>Escritura de N° Negativos con paréntesis</li>
+            <li>
+              Evitar el concatenado de símbolos en el area de calculo (++, --,
+              +-)
+            </li>
+            <li>Historial de cuentas <strong>(Opcional)</strong></li>
+          </ul>
+        </div>
+        <p id="nota">
+          <strong>Nota:</strong> Una vez apretado = se limpiara el area de
+          calculo en 7 segundos
+        </p>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
